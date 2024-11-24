@@ -1,0 +1,9 @@
+.*
+!.clangd
+!.clang-format
+!.gitignore
+*.symvers
+cpu_usage.*
+!cpu_usage.c
+compile_commands.json
+modules.order

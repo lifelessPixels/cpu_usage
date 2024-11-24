@@ -1,0 +1,11 @@
+IndentWidth: 4
+ColumnLimit: 120
+PointerAlignment: Left
+ReferenceAlignment: Left
+AccessModifierOffset: -4
+NamespaceIndentation: None
+IndentCaseLabels: true
+SpaceBeforeCpp11BracedList: true
+Cpp11BracedListStyle: false
+AlwaysBreakTemplateDeclarations: Yes
+RequiresClausePosition: OwnLine
