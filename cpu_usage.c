@@ -92,7 +92,7 @@ static int __init cpu_usage_init(void) {
     cpu_usage_report_work_queue = alloc_workqueue("cpu_usage", WQ_UNBOUND, 1);
     if (cpu_usage_report_work_queue == NULL) {
         cpu_usage_print_error("could not create a workqueue for periodic reports, aborting...");
-        return 1;
+        return -EAGAIN;
     }
 
     // fetch first jiffy stats
